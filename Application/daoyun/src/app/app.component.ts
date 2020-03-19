@@ -13,37 +13,37 @@ export class AppComponent implements OnInit {
   public selectedIndex = 0;
   public appPages = [
     {
-      title: 'Inbox',
-      url: '/folder/Inbox',
+      title: '我的',
+      url: '/information',
       icon: 'mail'
     },
     {
-      title: 'Outbox',
-      url: '/folder/Outbox',
+      title: '班课',
+      url: '/class',
       icon: 'paper-plane'
     },
     {
-      title: 'Favorites',
-      url: '/folder/Favorites',
+      title: '发现',
+      url: '/moments',
       icon: 'heart'
     },
     {
-      title: 'Archived',
+      title: '文件',
       url: '/folder/Archived',
       icon: 'archive'
     },
     {
-      title: 'Trash',
-      url: '/folder/Trash',
+      title: '设置',
+      url: '/setting',
       icon: 'trash'
     },
     {
-      title: 'Spam',
+      title: '退出',
       url: '/folder/Spam',
       icon: 'warning'
     }
   ];
-  public labels = ['Family', 'Friends', 'Notes', 'Work', 'Travel', 'Reminders'];
+  public labels = ['经验值', '魅力值', '豆豆', '版本'];
 
   constructor(
     private platform: Platform,
