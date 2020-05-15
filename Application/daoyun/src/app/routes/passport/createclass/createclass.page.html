@@ -1,0 +1,45 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-button color="light" (click)="back()">
+        <ion-icon slot="icon-only" name="arrow-back"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+    <h3 style="text-align: center;">创建班课</h3>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+  <ion-list lines="full">
+    <ion-item >
+      <div style="text-align: center;display: table-cell;position: relative;">
+        <img style="width: 70px;height: 70px;" src="assets/img/picture.png" />
+        <p>班课封面</p>
+      </div>
+    </ion-item>
+
+    <ion-item>
+      <ion-label>班级</ion-label>
+      <span class="item-note">未设置</span>
+    </ion-item>
+    <ion-item>
+      <ion-label>课程</ion-label>
+      <span class="item-note">未设置</span>
+    </ion-item>
+    <ion-item>
+      <ion-label stacked>学期</ion-label>
+      <select>
+        <option>2019-2020-1</option>
+        <option>2019-2020-2</option>
+        <option>2020-2021-1</option>
+        <option>2020-2021-2</option>
+      </select>
+    </ion-item>
+    <ion-item>
+      <ion-label>学校院系</ion-label>
+      <span class="item-note">未设置</span>
+    </ion-item>   
+  </ion-list>
+  <button class="button button-full" style="bottom: 0;width: 100%;font-size: 24px;">创建</button>
+</ion-content>

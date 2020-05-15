@@ -1,9 +1,31 @@
 <ion-header>
   <ion-toolbar>
-    <ion-title>discovery</ion-title>
+    <ion-buttons slot="end">
+      <ion-button color="primary" (click)="back()">帮助</ion-button>
+    </ion-buttons>
+    <h3 style="text-align: center;">发现</h3>
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
-
+<div class="parent">
+  <div class="image" style="display: inline;">
+    <img style="vertical-align: middle;" src="assets/img/discovery1.png">
+    
+  </div>
+  <div class="d1" style="display: inline;">
+    <label style="font-size: 25px; line-height:50px;">课程圈</label>
+    <a style="float: right;width:50px; line-height: 50px;text-decoration: none;" href="#">></a >
+  </div>
+</div>
+<div class="parent">
+  <div class="image" style="display: inline;">
+    <img style="vertical-align: middle;" src="assets/img/discovery2.png">
+    
+  </div>
+  <div class="d1" style="display: inline;">
+    <label style="font-size: 25px; line-height:50px;">第二课堂</label>
+    <a style="float: right;width:50px; line-height: 50px;text-decoration: none;" href="#">></a >
+  </div>
+</div>
 </ion-content>

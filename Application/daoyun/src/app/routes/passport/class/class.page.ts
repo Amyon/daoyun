@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { ClassInfo } from './ClassInfo';
 
 @Component({
   selector: 'app-class',
@@ -6,10 +7,14 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./class.page.scss'],
 })
 export class ClassPage implements OnInit {
-
+  // MyselectClass:Array<ClassInfo>;
+  // selectMyselectClass:ClassInfo;
   constructor() { }
 
   ngOnInit() {
+  }
+  OnSelectMySelect(){
+    //this.selectMyselectClass=this.MyselectClass[0];
   }
 
 }
